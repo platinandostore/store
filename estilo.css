@@ -1,0 +1,76 @@
+.gradient {
+ background: linear-gradient(50deg,rgba(255, 65, 104,0.4) ,rgba(124, 38, 248,0.4));
+ align-content: center;
+ text-align: center;
+ padding: 15px 0px;
+}
+
+.product-grid {
+    padding: 20px 10px;
+}
+
+.sombra_nav {
+    box-shadow: 0px 7px 5px rgba(50, 50, 50, 0.77);
+}
+/* === Criação do grid de Produtos === */
+.container_1 {
+    padding-top: 0px;
+}
+hr {
+    width: 300px;
+    border: 2px solid #434444;
+}
+.product-grid {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /*border: 0.5px solid rgba(67, 68, 68, 0.1);*/
+}
+.product-grid:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nome_jogo {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.image {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(67, 68, 68, 0.7);
+}
+.image:hover .overlay {
+    opacity: 1;
+}
+.detail {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+.buy {
+    background-color: transparent;
+    color: #434444;
+    border-radius: 1;
+    border: 1px solid #434444;
+    width: 100%;
+    margin-top: 10px;
+}
+.buy:hover {
+    background-color: #434444;
+    color: #fff;
+}
+.alugado {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
