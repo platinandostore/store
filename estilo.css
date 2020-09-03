@@ -5,6 +5,12 @@
  padding: 15px 0px;
  box-shadow: 0px 7px 5px rgba(50, 50, 50, 0.77);
 }
+.logo_ps {
+    width: 70%;
+}
+.logo_img {
+    width: 80%;
+}
 
 .product-grid {
     padding: 20px 10px;
